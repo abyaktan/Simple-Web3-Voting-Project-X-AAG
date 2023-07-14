@@ -23,16 +23,12 @@ The Voting App is a decentralized application (DApp) built using React and Ether
 ## NOTES : 
 THE PROJECT IS INCOMPLETE, THE REMAINING FUNCTIONALITY WILL BE FURTHER INSERTED  
 
-## Available Scripts
+## Steps
 
-In the project directory, you can run:
+In the project directory, you can:
 
-### Git clone the repository
+1. Copy the smart contract in **voting.sol** and deploy it in **https://remix.ethereum.org/**
+2. Copy the **Contract Address** in *Deployed Contracts* section and change the **const contractAddress** in **VotingContact.js**
+3. ### `npm install`
+4. ### `npm start`
 
-### `npm install`
-
-Installs the dependencies from package.json
-
-### `npm start`
-
-Starts the App
