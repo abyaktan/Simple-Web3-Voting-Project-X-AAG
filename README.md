@@ -1,5 +1,6 @@
 # Web3 Voting Simple Project
 
+![image1](ss.png)
 
 The Voting App is a decentralized application (DApp) built using React and Ethereum blockchain technology. It allows users to participate in voting on various ballots. The app provides the following features:
 
@@ -19,15 +20,19 @@ The Voting App is a decentralized application (DApp) built using React and Ether
 
 8. Feedback Messages: The app provides informative messages to users, such as success messages after casting a vote or error messages in case of any issues.
 
-## NOTES : THE PROJECT IS INCOMPLETE, THE REMAINING FUNCTIONALITY WILL FURTHER IMPROVED 
+## NOTES : 
+THE PROJECT IS INCOMPLETE, THE REMAINING FUNCTIONALITY WILL BE FURTHER INSERTED  
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### Git clone the repository
 
 ### `npm install`
 
 Installs the dependencies from package.json
 
 ### `npm start`
-  
+
+Starts the App
