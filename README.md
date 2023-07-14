@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Web3 Voting Simple Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The Voting App is a decentralized application (DApp) built using React and Ethereum blockchain technology. It allows users to participate in voting on various ballots. The app provides the following features:
+
+1. Ballot Creation: The app allows the contract owner to create a new ballot, specifying the name and options for voters to choose from.
+
+2. Ballot Information: Users can view the total number of available ballots and the options for each ballot.
+
+3. Casting Votes: Users can select an option from the available choices and cast their votes on the selected ballot. Once a vote is cast, the app updates the ballot's vote count.
+
+4. Interactive User Interface: The app has an interactive user interface where users can select options from a dropdown menu and click a button to cast their vote.
+
+5. Error Handling: The app provides error handling to ensure that users cannot cast a vote without selecting an option. It displays an error message if the user attempts to vote without selecting an option.
+
+6. Real-Time Updates: The app dynamically updates the ballot count and vote counts in real-time, allowing users to see the latest voting results.
+
+7. Closing Ballots: The contract owner has the ability to close a ballot, preventing further votes from being cast.
+
+8. Feedback Messages: The app provides informative messages to users, such as success messages after casting a vote or error messages in case of any issues.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs the dependencies from package.json
+
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
